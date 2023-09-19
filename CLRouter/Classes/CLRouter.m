@@ -103,11 +103,11 @@ static CLRouter *instance = nil;
 }
 
 - (BOOL)routeURL:(NSURL *)URL {
-    [self route:URL.absoluteString];
+    return [self route:URL.absoluteString];
 }
 
 - (BOOL)routeURL:(NSURL *)URL parameter:(NSObject *)parameter {
-    [self route:URL.absoluteString parameter:parameter];
+    return [self route:URL.absoluteString parameter:parameter];
 }
 
 @end
