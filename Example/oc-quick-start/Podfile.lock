@@ -1,0 +1,16 @@
+PODS:
+  - CLRouter (0.1.0)
+
+DEPENDENCIES:
+  - CLRouter (from `/Users/lion/sourcetree-workspace/librarys/CLRouter`)
+
+EXTERNAL SOURCES:
+  CLRouter:
+    :path: "/Users/lion/sourcetree-workspace/librarys/CLRouter"
+
+SPEC CHECKSUMS:
+  CLRouter: 3d3673007d42c52d874be2bbe4f9021bbfd39d9b
+
+PODFILE CHECKSUM: c403b12395690316291185fd52421ce37e5d6e62
+
+COCOAPODS: 1.12.1
