@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CLRouter.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/coooliang/clrouter",
+  "homepage": "https://github.com/coooliang/CLRouter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "chenliang": "coooliang"
   },
   "source": {
-    "git": "https://github.com/CocoaPods/Specs.git",
+    "git": "https://github.com/coooliang/CLRouter.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AF5E935754B9699D20D26F0F8321796 /* CLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42979E0850D58DFAC942D75F40D16C9B /* CLRouter-dummy.m */; };
-		23B0B4E70FDB46F63C22603876B5D0F3 /* CLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B2F0BD4D6B03960C4608033929149D /* CLRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7692FC67A0A15568F0AAFF6F67853801 /* CLRouterBlockParam.m in Sources */ = {isa = PBXBuildFile; fileRef = DD75D620AD95540C8070200EEB00F4E0 /* CLRouterBlockParam.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		89E4238E6283F011EED1958BC3E7ABD0 /* CLRouterDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E5F893FEB5F0FF96E659BFD2B72A519 /* CLRouterDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AF5E935754B9699D20D26F0F8321796 /* CLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C0D44310EE1AD1325073CEE31A84D0 /* CLRouter-dummy.m */; };
+		23B0B4E70FDB46F63C22603876B5D0F3 /* CLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8C9684692DA0E9208415DF1ED966A1 /* CLRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7692FC67A0A15568F0AAFF6F67853801 /* CLRouterBlockParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA6591BFD1ED015F911C43A72E2E4CC /* CLRouterBlockParam.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		89E4238E6283F011EED1958BC3E7ABD0 /* CLRouterDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BF8FEE0647345364688BAFEDB6E9BE /* CLRouterDefinition.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8C72EF396B86DE2D4127E9D6119E0AAA /* Pods-oc-quick-start-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B438BF869531D9A25B54971BC720A716 /* Pods-oc-quick-start-dummy.m */; };
-		BBF463F8DC639C2A64298D7A2C1E59A1 /* CLRouterBlockParam.h in Headers */ = {isa = PBXBuildFile; fileRef = DE28F10BB0C8E97AAA9E853FFC396507 /* CLRouterBlockParam.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFE68DB018420ED9447AF2745E991655 /* CLRouterDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4B016935DC62D2430E8B84620554C /* CLRouterDefinition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F3C9F690227B0D2528C6A85625E61537 /* CLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A07717A1B88A9D65F0C1100EDB7DE87F /* CLRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBF463F8DC639C2A64298D7A2C1E59A1 /* CLRouterBlockParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7C21DCB609C01C2DD1B689F035C8D2 /* CLRouterBlockParam.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFE68DB018420ED9447AF2745E991655 /* CLRouterDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C47088981A0C5A298C3DA36E0EE3D6 /* CLRouterDefinition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F3C9F690227B0D2528C6A85625E61537 /* CLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F221A9BC71566D7E1EC96B2683D3F7 /* CLRouter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D6663F35FC78442C97F1B2DCD07D2D9C /* PBXContainerItemProxy */ = {
+		E1414CABA96920223DC19DECAD8E8AAB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,25 +28,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097B8BEB853D77FC5AD6D3CF488B5D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1A4012EE2A5D957B73A93A3E17BBAA9B /* Pods-oc-quick-start-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-oc-quick-start-acknowledgements.plist"; sourceTree = "<group>"; };
-		42979E0850D58DFAC942D75F40D16C9B /* CLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLRouter-dummy.m"; sourceTree = "<group>"; };
+		2E7C21DCB609C01C2DD1B689F035C8D2 /* CLRouterBlockParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouterBlockParam.h; path = CLRouter/Classes/CLRouterBlockParam.h; sourceTree = "<group>"; };
+		44C0D44310EE1AD1325073CEE31A84D0 /* CLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLRouter-dummy.m"; sourceTree = "<group>"; };
+		46A2A53CE2CEC7A3F694A05270853B9A /* CLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLRouter-prefix.pch"; sourceTree = "<group>"; };
 		47113F51D377D75DF210C0CB4F82D292 /* CLRouter */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CLRouter; path = libCLRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E5F893FEB5F0FF96E659BFD2B72A519 /* CLRouterDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouterDefinition.h; path = CLRouter/Classes/CLRouterDefinition.h; sourceTree = "<group>"; };
-		6F73905FE9CD3A334EB77282D368214E /* CLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLRouter-prefix.pch"; sourceTree = "<group>"; };
+		5EA6591BFD1ED015F911C43A72E2E4CC /* CLRouterBlockParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouterBlockParam.m; path = CLRouter/Classes/CLRouterBlockParam.m; sourceTree = "<group>"; };
+		6B8C9684692DA0E9208415DF1ED966A1 /* CLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouter.h; path = CLRouter/Classes/CLRouter.h; sourceTree = "<group>"; };
 		7165031D5A373A0D50C184A7C6A2496E /* Pods-oc-quick-start-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-oc-quick-start-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9CF4B016935DC62D2430E8B84620554C /* CLRouterDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouterDefinition.m; path = CLRouter/Classes/CLRouterDefinition.m; sourceTree = "<group>"; };
+		85C47088981A0C5A298C3DA36E0EE3D6 /* CLRouterDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouterDefinition.m; path = CLRouter/Classes/CLRouterDefinition.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A07717A1B88A9D65F0C1100EDB7DE87F /* CLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouter.m; path = CLRouter/Classes/CLRouter.m; sourceTree = "<group>"; };
+		9E7B0CE593D22B807DA84EF007E49A55 /* CLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLRouter.release.xcconfig; sourceTree = "<group>"; };
+		ADD629E5769AB13379F39655CF13FA3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B000C44173A0CEE91A9CB41DF760DB01 /* Pods-oc-quick-start.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-oc-quick-start.debug.xcconfig"; sourceTree = "<group>"; };
 		B06DC452FA15E81511765B94BE47FC1C /* Pods-oc-quick-start.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-oc-quick-start.release.xcconfig"; sourceTree = "<group>"; };
+		B1F221A9BC71566D7E1EC96B2683D3F7 /* CLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouter.m; path = CLRouter/Classes/CLRouter.m; sourceTree = "<group>"; };
 		B438BF869531D9A25B54971BC720A716 /* Pods-oc-quick-start-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-oc-quick-start-dummy.m"; sourceTree = "<group>"; };
-		B4ABD494E81699C2970C4B8B25F5AD78 /* CLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLRouter.release.xcconfig; sourceTree = "<group>"; };
-		B4B2F0BD4D6B03960C4608033929149D /* CLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouter.h; path = CLRouter/Classes/CLRouter.h; sourceTree = "<group>"; };
-		CE991D96F83C940842FEE41290C6B296 /* CLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLRouter.debug.xcconfig; sourceTree = "<group>"; };
-		DD75D620AD95540C8070200EEB00F4E0 /* CLRouterBlockParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLRouterBlockParam.m; path = CLRouter/Classes/CLRouterBlockParam.m; sourceTree = "<group>"; };
-		DE28F10BB0C8E97AAA9E853FFC396507 /* CLRouterBlockParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouterBlockParam.h; path = CLRouter/Classes/CLRouterBlockParam.h; sourceTree = "<group>"; };
-		E186F9443EE59C4A1345B89D06E0FA08 /* CLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E1AEE94271567314B1A40933A6691821 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0BF8FEE0647345364688BAFEDB6E9BE /* CLRouterDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLRouterDefinition.h; path = CLRouter/Classes/CLRouterDefinition.h; sourceTree = "<group>"; };
+		D93F5949834964D60A097C88271B6FDD /* CLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLRouter.debug.xcconfig; sourceTree = "<group>"; };
+		F00A409B6C29AA6D73D99881E6B1BF51 /* CLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F5C85B36A272076F8BAE6864BE3FD7B7 /* Pods-oc-quick-start */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-oc-quick-start"; path = "libPods-oc-quick-start.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +82,18 @@
 			path = "Target Support Files/Pods-oc-quick-start";
 			sourceTree = "<group>";
 		};
+		433B6BE7537833F55FB3589719375CBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44C0D44310EE1AD1325073CEE31A84D0 /* CLRouter-dummy.m */,
+				46A2A53CE2CEC7A3F694A05270853B9A /* CLRouter-prefix.pch */,
+				D93F5949834964D60A097C88271B6FDD /* CLRouter.debug.xcconfig */,
+				9E7B0CE593D22B807DA84EF007E49A55 /* CLRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/oc-quick-start/Pods/Target Support Files/CLRouter";
+			sourceTree = "<group>";
+		};
 		702C93586A7126F3B10041880A1EA2FC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,26 +111,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86B58E455D218049A9852187D1C09519 /* Pod */ = {
+		AD71CA1665B105EBC46CADFDD534C533 /* CLRouter */ = {
 			isa = PBXGroup;
 			children = (
-				E186F9443EE59C4A1345B89D06E0FA08 /* CLRouter.podspec */,
-				E1AEE94271567314B1A40933A6691821 /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		9F112D69BC737D46A53D09C1173A4087 /* CLRouter */ = {
-			isa = PBXGroup;
-			children = (
-				B4B2F0BD4D6B03960C4608033929149D /* CLRouter.h */,
-				A07717A1B88A9D65F0C1100EDB7DE87F /* CLRouter.m */,
-				DE28F10BB0C8E97AAA9E853FFC396507 /* CLRouterBlockParam.h */,
-				DD75D620AD95540C8070200EEB00F4E0 /* CLRouterBlockParam.m */,
-				5E5F893FEB5F0FF96E659BFD2B72A519 /* CLRouterDefinition.h */,
-				9CF4B016935DC62D2430E8B84620554C /* CLRouterDefinition.m */,
-				86B58E455D218049A9852187D1C09519 /* Pod */,
-				F0E8FEA10DCBFC239EBD6FBB6659980C /* Support Files */,
+				6B8C9684692DA0E9208415DF1ED966A1 /* CLRouter.h */,
+				B1F221A9BC71566D7E1EC96B2683D3F7 /* CLRouter.m */,
+				2E7C21DCB609C01C2DD1B689F035C8D2 /* CLRouterBlockParam.h */,
+				5EA6591BFD1ED015F911C43A72E2E4CC /* CLRouterBlockParam.m */,
+				C0BF8FEE0647345364688BAFEDB6E9BE /* CLRouterDefinition.h */,
+				85C47088981A0C5A298C3DA36E0EE3D6 /* CLRouterDefinition.m */,
+				FE5C6D100269FF078AE66306684830E2 /* Pod */,
+				433B6BE7537833F55FB3589719375CBE /* Support Files */,
 			);
 			name = CLRouter;
 			path = "/Users/lion/sourcetree-workspace/librarys/CLRouter";
@@ -144,21 +148,19 @@
 		E61E2188F77350BB9BCC5062120CBD40 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9F112D69BC737D46A53D09C1173A4087 /* CLRouter */,
+				AD71CA1665B105EBC46CADFDD534C533 /* CLRouter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F0E8FEA10DCBFC239EBD6FBB6659980C /* Support Files */ = {
+		FE5C6D100269FF078AE66306684830E2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				42979E0850D58DFAC942D75F40D16C9B /* CLRouter-dummy.m */,
-				6F73905FE9CD3A334EB77282D368214E /* CLRouter-prefix.pch */,
-				CE991D96F83C940842FEE41290C6B296 /* CLRouter.debug.xcconfig */,
-				B4ABD494E81699C2970C4B8B25F5AD78 /* CLRouter.release.xcconfig */,
+				F00A409B6C29AA6D73D99881E6B1BF51 /* CLRouter.podspec */,
+				ADD629E5769AB13379F39655CF13FA3F /* LICENSE */,
+				097B8BEB853D77FC5AD6D3CF488B5D37 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/oc-quick-start/Pods/Target Support Files/CLRouter";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +214,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F275324E6184ED2D4D4E05B399011304 /* PBXTargetDependency */,
+				811858E5D7A53E1ABE30DECEF90CF6FE /* PBXTargetDependency */,
 			);
 			name = "Pods-oc-quick-start";
 			productName = "Pods-oc-quick-start";
@@ -270,18 +272,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F275324E6184ED2D4D4E05B399011304 /* PBXTargetDependency */ = {
+		811858E5D7A53E1ABE30DECEF90CF6FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLRouter;
 			target = BA22C494D42A351B5E7F5D590BDFCA01 /* CLRouter */;
-			targetProxy = D6663F35FC78442C97F1B2DCD07D2D9C /* PBXContainerItemProxy */;
+			targetProxy = E1414CABA96920223DC19DECAD8E8AAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		10E3F6C6030BC91D3ABBC4A36BA37B84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE991D96F83C940842FEE41290C6B296 /* CLRouter.debug.xcconfig */;
+			baseConfigurationReference = D93F5949834964D60A097C88271B6FDD /* CLRouter.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -474,7 +476,7 @@
 		};
 		D8CA25FD20C42A661DFD50F8290FAC0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4ABD494E81699C2970C4B8B25F5AD78 /* CLRouter.release.xcconfig */;
+			baseConfigurationReference = 9E7B0CE593D22B807DA84EF007E49A55 /* CLRouter.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

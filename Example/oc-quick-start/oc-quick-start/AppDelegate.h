@@ -1,7 +1,7 @@
 //// 
 //  AppDelegate.h
 //  
-//  Created by ___ORGANIZATIONNAME___ on 2023/7/6
+//  Created by coooliang on 2023/7/6
 //
 
 #import <UIKit/UIKit.h>
