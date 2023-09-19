@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitee.com/coooliang/clrouter'
+  s.homepage         = 'https://github.com/coooliang/CLRouter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenliang' => 'coooliang' }
   s.source           = { :git => 'https://github.com/coooliang/CLRouter.git', :tag => s.version.to_s }
